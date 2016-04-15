@@ -1,0 +1,173 @@
+body{
+  background: url(../images/bg.jpg);
+  background-repeat: repeat;
+}
+
+#notTicTacToeGame {
+  display: block;
+  margin: 0 auto;
+  background: white;
+  border:10px solid black;
+  /*border-top:15px solid black;
+  border-bottom:15px solid black;*/
+}
+
+#scores {
+  width:420px;	
+  display: block;
+  margin: 0 auto;
+  background: black;
+  border:10px solid white;
+  color:white;
+  text-align:center;
+/*  width: 200px;
+*/  /*border-top:15px solid black;
+  border-bottom:15px solid black;*/
+}
+
+#scores2 {
+  width:420px;	
+  display: block;
+  margin: 0 auto;
+  background: black;
+  border: 10px solid white;
+  text-align:center;
+  height: 75px;
+
+}
+
+.canvas-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.container-scores {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.main-div {
+  transform-style: preserver-3d;
+
+}
+.main-div-scores {
+  transform-style: preserver-3d;
+  \
+
+}
+
+#dialogoverlay{
+	height: 125vh;
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: -50%;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:300px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC;text-align:center;}
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF;text-align:center;}
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+
+.redf{
+	color:red;
+	font-weight: bold;
+}
+
+h1{
+	padding: 1px;
+  border: 3px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 310px;
+  background: yellow;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+h2{
+	padding: 1px;
+    border: 3px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    background: yellow;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scorename{
+	width: 200px;
+}
+
+
+.red{
+	color:white;
+	padding: 1px;
+	border: 3px solid black;
+	background: red;
+}
+.blue{
+	color:white;
+	padding: 1px;
+	border: 3px solid black;
+	background: blue;
+}
+.black{
+	padding: 1px;
+	border: 3px solid black;
+	background: black;
+	color: white;
+}
+.white{
+	padding: 1px;
+	border: 3px solid black;
+	background: white;
+}
+.green{
+	padding: 1px;
+	border: 3px solid black;
+	background: rgb(0,166,81);
+	color: white;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    color: white;
+}
+ul {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+}
+
+
+}

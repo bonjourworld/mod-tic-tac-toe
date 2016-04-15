@@ -1,0 +1,80 @@
+@charset "utf-8";
+#menu
+{
+	display: block; 
+	margin: 0 auto;
+/*	left : 768px;
+	top : 330px;*/
+	width : 420px;
+	height : 80px;
+	background: black;
+}
+
+#menuscores
+{
+	display: block; 
+	margin: 0 auto;
+/*	left : 768px;
+	top : 330px;*/
+	width : 80px;
+	height : 80px;
+	background: black;
+}
+
+#gamebutton2
+{
+
+	/*position : absolute  ;*/
+	display:inline-block;
+	cursor: pointer;
+	margin: 0 auto;
+	/*left : 152px;
+	top : 482px;*/
+	width : 59px;
+	height : 60px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#gamebutton
+{
+
+	/*position : absolute  ;*/
+	display:inline-block;
+	cursor: pointer;
+	margin: 0 auto;
+	/*left : 152px;
+	top : 482px;*/
+	width : 59px;
+	height : 60px;
+	padding-top: 10px;
+	padding-left: 60px;
+}
+#cupbutton
+{
+
+	/*position : absolute ;*/
+	display:inline-block;
+	margin: 0 auto;
+	cursor: pointer;
+	/*left : 53px;
+	top : 482px;*/
+	width : 59px;
+	height : 59px;
+	padding-top: 10px;
+	padding-left: 60px;
+}
+#infobutton
+{
+	display:inline-block;
+	margin: 0 auto;
+	position : absolute ;
+	cursor: pointer;
+	/*left : 253px;
+	top : 482px;*/
+	width : 59px;
+	height : 59px;
+	padding-top: 10px;
+	padding-left: 60px;
+}
+

@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background: white url('../images/m.jpg');
+	background-position: fixed;
+	background-repeat: repeat;
+	background-size: contain;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: roboto;
+	font-weight: normal;
+
+}
+
+.title {
+	display:flex;
+	flex-direction:column;
+	font-size: 2.8em;
+	font-weight: 650;
+}
+
+#not {
+	padding-right: 30px;
+}
+
+#yel {
+	color: #ffcd3e;
+	padding-right: 30px;
+
+}
+
+#red {
+	color: #d50805;
+	padding-right: 30px;
+
+}
+
+#blue {
+	color: #0d5f97;
+	padding-right: 30px;
+
+}
+
+
+h2 {
+	font-size: 1.3em;
+	font-weight: 500;
+}
+h3 {
+	font-size: 1.3em;
+	font-weight: 200;
+	text-align: justify;
+}
+
+
+#flexbox {
+
+	width: 50%;
+	height: 100%;
+	padding: 15px;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	color: #183142;
+	text-align: left;
+	opacity:0;
+	animation: show 3s 2s forwards ;
+}
+
+
+.bear {
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	margin-left:20px;
+	left:50%;
+	top:30%;
+	background: url('../images/walk2.png') left center ;
+	animation: walk 2s steps(9) forwards ;
+}
+
+.button {
+	position: relative;
+	background:white;
+
+}
+
+
+
+
+.back {
+
+	margin:0 auto;
+}
+
+@keyframes show{
+	 0% {
+    opacity: 0;
+    left: -25%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
+@keyframes walk{
+
+100% { background-position:  -6300px; }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+
+
+
+#flexbox{
+		width: 100%;
+		align-items: center;
+ 	}
+
+.title{
+	flex-direction: row;
+	font-size: 3.3em;
+	font-weight: 550;
+}
+
+h2{
+	font-size: 2em;
+	font-weight: 200;
+}
+
+
+.bear{
+ 	top:100%;
+ 	}
+
+
+}
+
+@media screen and (max-width: 479px){
+
+
+
+#flexbox {
+		width: 100%;
+		height: 100%;
+ 	}
+
+
+.title {
+    flex-direction: row;
+	font-size: 2em;
+	font-weight: 450;
+ }
+
+
+.content{
+	padding-top:325px;
+    width: 100%;
+    height: 50%;
+}
+
+h2{
+	font-size: 1.2em;
+	font-weight: 200;
+}
+.button{
+	width: 83%;
+}
+
+.bear{
+	display:block;
+	left:30%;
+	top:5%;
+	width: 400px;
+	height:286px;
+	background: url('../images/walk3.png')left center ;
+	animation: smallBear 2s steps(9) forwards ;
+	}
+
+@keyframes smallBear{
+
+100% { background-position:  -3600px; }
+
+}
+
+
+}
+
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
